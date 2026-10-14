@@ -1,0 +1,19 @@
+{
+  "gemini-autoharness": {
+    "enabled": true,
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "python3 /home/jpi/Projects/gemini-autoharness/src/autoharness/hook_runner.py SessionStart",
+        "timeout": 15
+      }
+    ],
+    "Stop": [
+      {
+        "type": "command",
+        "command": "python3 /home/jpi/Projects/gemini-autoharness/src/autoharness/hook_runner.py Stop",
+        "timeout": 30
+      }
+    ]
+  }
+}

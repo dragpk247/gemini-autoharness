@@ -1,0 +1,10 @@
+{
+  "name": "gemini-autoharness",
+  "version": "0.1.0",
+  "description": "Self-learning skill layer for Google Antigravity & Gemini agents",
+  "author": "dragpk247",
+  "skills": [
+    "skills/learn"
+  ],
+  "hooks": "hooks.json"
+}
